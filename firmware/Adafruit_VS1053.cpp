@@ -12,7 +12,7 @@
   BSD license, all text above must be included in any redistribution
  ****************************************************/
 
-#include <Adafruit_VS1053.h>
+#include <Adafruit_VS1053/Adafruit_VS1053.h>
 #include "sd-card-library/sd-card-library.h"
 
 static Adafruit_VS1053_FilePlayer *myself;
