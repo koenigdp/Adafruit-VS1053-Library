@@ -14,18 +14,6 @@
 #ifndef ADAFRUIT_VS1053_H
 #define ADAFRUIT_VS1053_H
 
-#if (ARDUINO >= 100)
- #include <Arduino.h>
-#else
- #include <WProgram.h>
- #include <pins_arduino.h>
-#endif
-
-#include "pins_arduino.h"
-#include "wiring_private.h"
-#include <SPI.h> 
-#include <SD.h>
-
 #ifdef __SAM3X8E__
 typedef volatile RwReg PortReg;
 typedef uint32_t PortMask;
