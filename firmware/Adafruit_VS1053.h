@@ -14,6 +14,8 @@
 #ifndef ADAFRUIT_VS1053_H
 #define ADAFRUIT_VS1053_H
 
+#include "sd-card-library/sd-card-library.h"
+
 #ifdef __SAM3X8E__
 typedef volatile RwReg PortReg;
 typedef uint32_t PortMask;
