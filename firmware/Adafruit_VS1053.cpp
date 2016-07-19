@@ -13,7 +13,7 @@
  ****************************************************/
 
 #include <Adafruit_VS1053.h>
-#include <SD.h>
+#include "sd-card-library/sd-card-library.h"
 
 static Adafruit_VS1053_FilePlayer *myself;
 
